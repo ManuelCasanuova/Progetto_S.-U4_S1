@@ -38,10 +38,12 @@ public class Immagine extends ElementoMultimediale {
         if (scelta == '+') {
             System.out.println("Luminosità aumentata");
             aumentaLuminosita();
+            System.out.println();
             show();
         } else if (scelta == '-') {
             System.out.println("Luminosità diminuita");
             diminuisciLuminosita();
+            System.out.println();
             show();
         }else if(scelta != '+' || scelta != '-' ){
             System.out.println("Hai scelto di tornare alla lista dei file");

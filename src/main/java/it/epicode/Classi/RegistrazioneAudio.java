@@ -33,15 +33,19 @@ public class RegistrazioneAudio extends ElementoMultimediale implements Riproduc
     @Override
     public void play() {
         for (int i = 0; i < durata; i++) {
-            System.out.println( "Titolo:" + titolo + " " + "Volume: " + "!".repeat(volume));
+            System.out.println( "Titolo:" + titolo + " " + "Volume: " + "!".repeat(volume));}
             System.out.println("Aumenta il volume con + o diminuisci con -, oppure premi 0 per tornare alla lista dei file");
             Scanner scanner = new Scanner(System.in);
             char scelta = scanner.next().charAt(0);
             if (scelta == '+') {
+                System.out.println("Volume alzato");
                 alzaVolume();
+                System.out.println();
                 play();
             } else if (scelta == '-') {
+                System.out.println("Volume abbassato");
                 abbassaVolume();
+                System.out.println();
                 play();
             }else {
                 System.out.println("Hai scelto di tornare alla lista dei file");
@@ -49,7 +53,7 @@ public class RegistrazioneAudio extends ElementoMultimediale implements Riproduc
                 mostraLista();
             }
         }
-    }
+
 
     @Override
     public void riproduci() {

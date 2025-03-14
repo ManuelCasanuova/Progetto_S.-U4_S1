@@ -41,7 +41,7 @@ public class Video extends ElementoMultimediale implements Riproducibile {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < durata; i++) {
-            System.out.println("Titolo : " +titolo + " " + "Volume: " +  "!".repeat(volume) + " " + "Luminosità: " + "*".repeat(luminosita) );
+            System.out.println("Titolo : " +titolo + " " + "Volume: " +  "!".repeat(volume) + " " + "Luminosità: " + "*".repeat(luminosita) );}
             System.out.println();
             System.out.println("Puoi decidere di aumentare o abbassare il volume e la luminosità");
             System.out.println("Seleziona 1 per volume e 2 per luminosità, oppure 0 per tornare alla lista dei file");
@@ -62,8 +62,8 @@ public class Video extends ElementoMultimediale implements Riproducibile {
                         play();
                     } else if (volume == '-') {
                         System.out.println("Volume abbassato");
-                        System.out.println();
                         abbassaVolume();
+                        System.out.println();
                         play();
                     }
                     break;
@@ -91,7 +91,7 @@ public class Video extends ElementoMultimediale implements Riproducibile {
                     mostraLista();
                     break;
             }
-        }
+
 
     }
 
