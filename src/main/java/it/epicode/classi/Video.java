@@ -1,11 +1,11 @@
-package it.epicode.Classi;
+package it.epicode.classi;
 
 import it.epicode.ElementoMultimediale;
 import it.epicode.Riproducibile;
 
 import java.util.Scanner;
 
-import static it.epicode.Main.PlayerMultimediale.mostraLista;
+import static it.epicode.main.PlayerMultimediale.mostraLista;
 
 public class Video extends ElementoMultimediale implements Riproducibile {
     private int luminosita;

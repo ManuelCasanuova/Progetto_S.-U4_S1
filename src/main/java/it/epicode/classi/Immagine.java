@@ -1,10 +1,10 @@
-package it.epicode.Classi;
+package it.epicode.classi;
 
 import it.epicode.ElementoMultimediale;
 
 import java.util.Scanner;
 
-import static it.epicode.Main.PlayerMultimediale.mostraLista;
+import static it.epicode.main.PlayerMultimediale.mostraLista;
 
 public class Immagine extends ElementoMultimediale {
     private int luminosita;

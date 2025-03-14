@@ -1,9 +1,9 @@
-package it.epicode.Main;
+package it.epicode.main;
 
 import it.epicode.ElementoMultimediale;
-import it.epicode.Classi.Immagine;
-import it.epicode.Classi.RegistrazioneAudio;
-import it.epicode.Classi.Video;
+import it.epicode.classi.Immagine;
+import it.epicode.classi.RegistrazioneAudio;
+import it.epicode.classi.Video;
 
 import java.util.Scanner;
 
