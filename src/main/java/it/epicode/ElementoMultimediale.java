@@ -9,5 +9,6 @@ import lombok.Data;
 
 public abstract class ElementoMultimediale{
 protected String titolo;
+public abstract void riproduci();
 
 }
